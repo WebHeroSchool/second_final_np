@@ -13,3 +13,27 @@
     font-size: 66px;
     line-height: 87px
 }
+
+.menu-item{
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.description{
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
