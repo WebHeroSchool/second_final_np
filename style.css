@@ -38,7 +38,7 @@ body{
 	align-items: center;
 }
 
-.menu-item{
+.menu__item{
   font-family: Roboto, serif;
   font-style: normal;
   font-weight: 500;
@@ -47,7 +47,7 @@ body{
 	padding: 0 13px;
 }
 
-.menu-item:last-child{
+.menu__item:last-child{
 	padding: 0;
 }
 
