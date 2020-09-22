@@ -17,20 +17,35 @@ body{
 }
 
 .logo{
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-	line-height: 32px;
-	padding: 40px 0;
+  font: 700 24px/32px 'PT Serif';
+  padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
 }
 
-.title{
-  font-family: 'PT Serif', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 66px;
-  line-height: 87px
+.logo__circle{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue{
+  background: #0056EC;
+}
+
+.logo__circle_color_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+
+.main-content__title{
+  font: 700 66px/87px 'PT Serif';
 }
 
 .menu{
@@ -39,11 +54,7 @@ body{
 }
 
 .menu__item{
-  font-family: Roboto, serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-	line-height: 21px;
+  font: 500 18px/21px 'Roboto';
 	padding: 0 13px;
 }
 
@@ -51,19 +62,11 @@ body{
 	padding: 0;
 }
 
-.description{
-  font-family: Roboto, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
+.main-content__description{
+  font: 400 22px/26px 'Roboto';
 }
 
-.button{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+.main-content__button{
+  font: 500 18px/21px 'Roboto';
 }
 
