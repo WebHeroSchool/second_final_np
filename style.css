@@ -2,28 +2,28 @@
   border: dashed 1px rgb(172, 28, 128);
 } */
 
-.wrapper{
+.wrapper {
 	margin: auto;
 	width: 80%;
 }
 
-body{
+body {
 	margin: 0;
 }
 
-.header{
+.header {
 	display: flex;
 	justify-content: space-between;
 }
 
-.logo{
-  font: 700 24px/32px 'PT Serif';
+.logo {
+  font: 700 24px/32px 'PT Serif', serif;
   padding: 40px 0;
   padding-left: 44px;
   position: relative;
 }
 
-.logo__circle{
+.logo__circle {
   width: 28px;
   height: 28px;
   position: absolute;
@@ -34,39 +34,39 @@ body{
   opacity: .7;
 }
 
-.logo__circle_color_dark-blue{
-  background: #0056EC;
+.logo__circle_color_dark-blue {
+  background: #0056ec;
 }
 
-.logo__circle_color_blue{
+.logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
 }
 
-.main-content__title{
-  font: 700 66px/87px 'PT Serif';
+.main-content__title {
+  font: 700 66px/87px 'PT Serif', serif;
 }
 
-.menu{
+.menu {
   display: flex;
 	align-items: center;
 }
 
-.menu__item{
-  font: 500 18px/21px 'Roboto';
+.menu__item {
+  font: 500 18px/21px 'Roboto', serif;
 	padding: 0 13px;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
 	padding: 0;
 }
 
-.main-content__description{
-  font: 400 22px/26px 'Roboto';
+.main-content__description {
+  font: 400 22px/26px 'Roboto', serif;
 }
 
-.main-content__button{
-  font: 500 18px/21px 'Roboto';
+.main-content__button {
+  font: 500 18px/21px 'Roboto', serif;
 }
 
