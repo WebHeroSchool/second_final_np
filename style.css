@@ -58,8 +58,7 @@ body {
   font: 500 18px/21px 'Roboto', sans-serif;
   margin-right: 26px;
   color: #000;
-  text-decoration: none;
-  opacity: 0;
+  text-decoration: none;git 
   transition: opacity .5s;
 }
 
@@ -78,10 +77,10 @@ body {
 }
 
 .menu__item:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
-.menu__item:hover:after {
+.menu__item:hover::after {
   position: absolute;
   left: 0;
   display: block;
@@ -91,7 +90,8 @@ body {
   background: #0056ec;
 }
 
-.menu__item:hover:after, .menu__item_active:after {
+.menu__item:hover:after,
+ .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
