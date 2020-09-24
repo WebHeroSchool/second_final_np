@@ -58,8 +58,8 @@ body {
   font: 500 18px/21px 'Roboto', sans-serif;
   margin-right: 26px;
   color: #000;
-  text-decoration: none;git 
-  transition: opacity .5s;
+  text-decoration: none;
+  transition: opacity .5;
 }
 
 .menu__item_active::after {
