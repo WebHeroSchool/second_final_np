@@ -90,8 +90,8 @@ body {
   background: #0056ec;
 }
 
-.menu__item:hover:after,
- .menu__item_active::after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
