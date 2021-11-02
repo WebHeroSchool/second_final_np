@@ -128,7 +128,7 @@ body {
 }
 
 .main__button:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .main-title-text_highlight {
