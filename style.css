@@ -145,3 +145,64 @@ body {
   margin-top: 60%;
   margin-left: 137%;
 }
+
+/* --------------------------------------------------Media Queries --------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .logo__text {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+  
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .main__description {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+
+  /* ------------------------------------Burger button------------------------------------ */
+
+
+  }
+
+  /* ------------------------- Adaptation max or min change later-------------------------*/
+
+  @media (max-width: 667px) {
+    
+
+  }
+
+  @media (min-width: 1024px) {
+
+  }
+
+  @media (min-width: 1336px) {
+
+  }
+
+  @media (min-width: 1920px) {
+
+  }
