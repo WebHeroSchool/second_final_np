@@ -1,25 +1,27 @@
-/* *{
+/* * {
   border: dashed 1px rgb(172, 28, 128);
 } */
 
 .wrapper {
-	margin: auto;
-	width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .header {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-top: 3px;
 }
 
 .logo {
-  font: 700 24px/32px 'PT Serif', sans-serif;
-  padding: 40px 0;
-  padding-left: 44px;
+  font: 700 24px/32px "PT Serif", sans-serif;
+  padding: 36px 10px 33px 39px;
+  margin: 0 0 0 9px;
   position: relative;
 }
 
@@ -32,6 +34,8 @@ body {
   transform: translateY(-50%);
   border-radius: 50%;
   opacity: .7;
+  margin-top: 1%;
+  margin-left: -4px; /* насколько критичны отрицательные значения? */
 }
 
 .logo__circle_color_dark-blue {
@@ -44,18 +48,17 @@ body {
   background: #c8dbfb;
 }
 
-.main-content__title {
-  font: 700 66px/87px 'PT Serif', sans-serif;
-}
-
 .menu {
   display: flex;
-	align-items: center;
+  align-items: center;
+  padding: 14px 11px 0 0;
+  margin: 1px 0 4px 0;
 }
 
 .menu__item {
   position: relative;
-  font: 500 18px/21px 'Roboto', sans-serif;
+  font: 500 18px/21px "Roboto", sans-serif;
+  font-weight: bold;
   margin-right: 26px;
   color: #000;
   text-decoration: none;
@@ -65,7 +68,7 @@ body {
 .menu__item_active::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 3px;
   left: 0;
@@ -84,7 +87,7 @@ body {
   position: absolute;
   left: 0;
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 3px;
   background: #0056ec;
@@ -96,10 +99,49 @@ body {
   width: 100%;
 }
 
-.main-content__description {
-  font: 400 22px/26px 'Roboto', sans-serif;
+.main {
+  padding: 0 63% 170px 5%;
+  background: 99.7% 0% / 50.4% no-repeat url(img/mainpic.svg);
 }
 
-.main-content__button {
-  font: 500 18px/21px 'Roboto', sans-serif;
+.main__title {
+  font: 700 66px/87px "PT Serif", sans-serif;
+  padding: 71px 42px 43px 8px;
+  margin: 141px 0 55px -82px;
+}
+
+.main__description {
+  font: 400 22px/26px "Roboto", sans-serif;
+  padding: 0 140px 0 5px;
+  margin: -63px 0 56px -79px;
+}
+
+.main__button {
+  font: 500 18px/21px "Roboto", sans-serif;
+  color: #fff;
+  background: #0056ec;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: opacity .5s;
+  padding: 13px 35px 20px 23px;
+  margin: 21px 0 0 -74px;
+}
+
+.main__button:hover {
+  opacity: .5;
+}
+
+.main-title-text_highlight {
+  background: linear-gradient(transparent 18%, #ecf3ff 10%, #ecf3ff 90%, transparent 90%);
+}
+
+.main__dots {
+  border-color: #ecf3ff;
+  border-style: dotted none none;
+  width: 35px;
+  border-width: 8px;
+  position: relative;
+  display: block;
+  margin-top: 60%;
+  margin-left: 137%;
 }
