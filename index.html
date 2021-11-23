@@ -15,11 +15,22 @@
           <div class="logo__circle logo__circle_color_blue"></div>
           <span class="logo__text">app.creation</span>
         </div>
-        <!-- ---------------------------------Burger Button---------------------------------- -->
-        <div class="menu__burger"></div>
-        <div class="menu__burger"></div>
-        <div class="menu__burger"></div>
-        <!-- -------------------------------------------------------------------------------- -->
+        <!-- -----------------------------Burger Button----------------------------- -->
+       
+        <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">start</a></li>
+            <li><a class="menu__item" href="#">services</a></li>
+            <li><a class="menu__item" href="#">about</a></li>
+            <li><a class="menu__item" href="#">blog</a></li>
+            <li><a class="menu__item" href="#">contact us</a></li>
+          </ul>
+
+        <!-- ----------------------------------------------------------------------- -->
         <nav class="menu">
           <a class="menu__item" href="#">start</a>
           <a class="menu__item menu__item_active" href="#">services</a>
@@ -27,11 +38,12 @@
           <a class="menu__item" href="#">blog</a>
           <a class="menu__item" href="#">contact us</a>
         </nav>
-
+ 
+        <!-- ------------------------------------------------------------------------ -->
       </header>
       <main class="main">
         <h1 class="main__title">
-          Building an App
+          Building an App<br>
           <span class="main-title-text_highlight">Without Design Expertise</span>?
         </h1>
         <p class="main__description">
