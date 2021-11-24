@@ -155,6 +155,68 @@ body {
 
 /* --------------------------------------------------Media Queries -----------------------------------------------*/
 
+@media (max-width: 1336px) {
+
+  .wrapper {
+    margin: auto;
+    width: 75%;
+  }
+
+  .main {
+    padding: 0 60% 170px 0;
+    background: 95% 0% / 50% no-repeat url(img/mainpic.svg);
+  }
+
+  .header {
+    margin-bottom: 100px;
+    margin-left: 50px;
+  }
+
+  .logo {
+    padding: 35px 10px 30px 44px;
+  }
+    
+  .menu {
+    padding: 14px 25px 0 0;
+    margin: 3px 0 5px 0;
+  }
+
+  .menu__item {
+    font: 500 14px/16px "Roboto", sans-serif;
+  }
+    
+  .main__title {
+    font: 700 50px/65px "PT Serif", sans-serif;
+    padding: 12px 0 0 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 33px;
+    width: 100%;
+  }
+
+  .main__description {
+    font: 400 18px/21px "Roboto", sans-serif;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 30px;
+    margin-left: 31px;
+    width: 87%;
+  }
+
+  .main__button {
+    font: 500 14px/30px "Roboto", sans-serif;
+    padding: 12px 25px 16px 16px;
+    margin-left: 53px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 871px) {
+  
+}
+
 @media (max-width: 768px) {
   .logo__text {
     display: none;
@@ -162,6 +224,10 @@ body {
 
   .menu {
    display: none;
+  }
+
+  .menu__item:hover::after {
+    display: none;
   }
 
   /*-------------------------------Burger Button ----------------------------*/
@@ -205,7 +271,9 @@ body {
 
   /* контейнер меню */
   .menu__box {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed;
     visibility: hidden;
     top: 0;
@@ -213,10 +281,9 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: #ECF3FF;
+    background-color: #FFFFFF;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
   /* элементы меню */
@@ -225,12 +292,10 @@ body {
     padding: 12px 24px;
     color: #000000;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
     text-decoration: none;
-  }
-  .menu__item:hover {
-    background-color: #CFD8DC;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -251,53 +316,40 @@ body {
 
     /*-------------------------------------------------------------------------*/
 
-    .header {
-      margin-bottom: 28px;
-    }
+  .header {
+    margin-bottom: 28px;
+  }
 
-    .main {
-      text-align: center;
-      padding: 74% 0 0;
-      background-size: 74%;
-      background-position: top center;
-    }
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
 
-    .main__title {
-      margin-bottom: 44px;
-      font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
-    }
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+  }
 
-    .main__description {
-      margin-bottom: 25px;
-      font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
-      display: block;
-      margin: 0 auto;
-    }
+  .main__description {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .main__button {
-      font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    }
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
 
-    .main__dots {
-      display: none;
-    }
+  .main__dots {
+    display: none;
+  }
 
+}
 
-  /* ------------------------- Adaptation max or min change later-------------------------*/
-
-  /* @media (max-width: 667px) {
+@media (max-width: 375px) {
     
 
-  }
-
-  @media (min-width: 1024px) {
-
-  }
-
-  @media (min-width: 1336px) {
-
-  }
-
-  @media (min-width: 1920px) {
-
-  } */
+}
