@@ -155,10 +155,40 @@ body {
 
 /* --------------------------------------------------Media Queries -----------------------------------------------*/
 
+@media (max-width: 1700px) {
+  .main__title {
+    width: 110%;
+  }
+
+  .main__description {
+    width: 110%;
+  }
+}
+
+@media (max-width: 1570px) {
+  .main {
+    padding: 0 55% 170px 0;
+  }
+
+  .main__title {
+    width: 100%;
+  }
+
+  .main__description {
+    width: 100%;
+  }
+} 
+
+@media (max-width: 1420px) {
+  .main__title {
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 1336px) {
 
   .wrapper {
-    margin: auto;
+    /* margin: auto; */
     width: 75%;
   }
 
@@ -209,17 +239,47 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
 
-}
+  .logo {
+    padding: 35px 10px 30px 40px;
+    margin: 0;
+  }
 
-@media (max-width: 871px) {
-  
+  .menu {
+    padding: 16px 47px 0 0;
+    margin: 3px 0 5px 0;
+  }
+
+  .main {
+    background: 90% 0% / 50% no-repeat url(img/mainpic.svg);
+  }
+
+  .main__title {
+    margin-left: 30px;
+  }
+
+  .main__description {
+    margin-left: 30px;
+  }
+
+  .main__button {
+    margin-left: 45px;
+  }
+
 }
 
 @media (max-width: 768px) {
-  .logo__text {
-    display: none;
+  .wrapper {
+    width: 80%;
+  }
+
+  .header {
+    margin-left: 0;
+    margin-bottom: 28px;
   }
 
   .menu {
@@ -241,8 +301,8 @@ body {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center;  /* центрируем содержимое кнопки */
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 35px;
+    right: 35px;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -316,10 +376,6 @@ body {
 
     /*-------------------------------------------------------------------------*/
 
-  .header {
-    margin-bottom: 28px;
-  }
-
   .main {
     text-align: center;
     padding: 74% 0 0;
@@ -330,6 +386,8 @@ body {
   .main__title {
     margin-bottom: 44px;
     font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .main__description {
@@ -337,10 +395,12 @@ body {
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     display: block;
     margin: 0 auto;
+    padding-left: 0;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin-left: 0;
   }
 
   .main__dots {
@@ -351,5 +411,23 @@ body {
 
 @media (max-width: 375px) {
     
+  .logo__text {
+    display: none;
+  }
+
+  .main {
+    margin-left: 10px;
+    background-size: 90%;
+  }
+
+  .main__title {
+    margin-top: 19px;
+    margin-bottom: 11px;
+  }
+
+  .main__description {
+
+  }
+
 
 }
