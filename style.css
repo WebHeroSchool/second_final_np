@@ -144,7 +144,6 @@ body {
 
 .main__dots {
   border-color: #ecf3ff;
-  /* border-color: black; */
   border-style: dotted none none;
   width: 35px;
   border-width: 8px;
@@ -153,7 +152,7 @@ body {
   margin: 8% auto;
 }
 
-/* --------------------------------------------------Media Queries -----------------------------------------------*/
+/* --------------------------------------------------Media Queries ---------------------------------------------- */
 
 @media (max-width: 1700px) {
   .main__title {
@@ -177,7 +176,7 @@ body {
   .main__description {
     width: 100%;
   }
-} 
+}
 
 @media (max-width: 1420px) {
   .main__title {
@@ -204,7 +203,7 @@ body {
   .logo {
     padding: 35px 10px 30px 44px;
   }
-    
+  
   .menu {
     padding: 14px 25px 0 0;
     margin: 3px 0 5px 0;
@@ -283,14 +282,14 @@ body {
   }
 
   .menu {
-   display: none;
+    display: none;
   }
 
   .menu__item:hover::after {
     display: none;
   }
 
-  /*-------------------------------Burger Button ----------------------------*/
+  /* ------------------------------Burger Button ----------------------------*/
 
   #menu__toggle {
     opacity: 0;
@@ -316,7 +315,6 @@ body {
     width: 25px;
     height: 3px;
     background-color: #0056ec;
-  ;
   }
 
   .menu__btn > span::before {
@@ -342,14 +340,14 @@ body {
     margin: 0;
     list-style: none;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #fff;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
 
   .menu__item {
     display: block;
     padding: 12px 24px;
-    color: #000000;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -376,8 +374,7 @@ body {
     right: 0;
   }
 
-    /*-------------------------------------------------------------------------*/
-
+  /* ----------------------------------------------------------------------- */
   .main {
     text-align: center;
     padding: 74% 0 0;
@@ -454,3 +451,4 @@ body {
     margin: 0 auto 18px;
   }
 }
+
