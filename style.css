@@ -188,7 +188,6 @@ body {
 @media (max-width: 1336px) {
 
   .wrapper {
-    /* margin: auto; */
     width: 75%;
   }
 
@@ -240,6 +239,7 @@ body {
 }
 
 @media (max-width: 1024px) {
+
   .wrapper {
     width: 100%;
   }
@@ -269,10 +269,10 @@ body {
   .main__button {
     margin-left: 45px;
   }
-
 }
 
 @media (max-width: 768px) {
+
   .wrapper {
     width: 80%;
   }
@@ -292,14 +292,13 @@ body {
 
   /*-------------------------------Burger Button ----------------------------*/
 
-    /* скрываем чекбокс */
   #menu__toggle {
     opacity: 0;
   }
-  /* стилизуем кнопку */
+
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 35px;
     right: 35px;
@@ -308,7 +307,7 @@ body {
     cursor: pointer;
     z-index: 1;
   }
-  /* добавляем "гамбургер" */
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -319,17 +318,17 @@ body {
     background-color: #0056ec;
   ;
   }
+
   .menu__btn > span::before {
     content: '';
     top: -8px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
   }
 
-
-  /* контейнер меню */
   .menu__box {
     display: flex;
     flex-direction: column;
@@ -346,7 +345,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
-  /* элементы меню */
+
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -361,14 +360,17 @@ body {
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
+
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
+
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     right: 0;
@@ -391,10 +393,9 @@ body {
   }
 
   .main__description {
-    margin-bottom: 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     padding-left: 0;
   }
 
@@ -406,28 +407,50 @@ body {
   .main__dots {
     display: none;
   }
-
 }
 
 @media (max-width: 375px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .header {
+    margin-bottom: 14px;
+  }
     
   .logo__text {
     display: none;
   }
+  
+  .logo__circle {
+    left: 5px;
+    top: 50%;
+  }
+
+  .logo__circle_color_blue {
+    left: 13px;
+    top: 60%;
+  }
+
+  .menu__btn {
+    top: 28px;
+    right: 23px;
+  }
 
   .main {
-    margin-left: 10px;
-    background-size: 90%;
+    margin-left: 0px;
+    background-size: 87%;
   }
 
   .main__title {
-    margin-top: 19px;
-    margin-bottom: 11px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    margin-left: 5px;
   }
 
   .main__description {
-
+    width: 75%;
+    margin: 0 auto 18px;
   }
-
-
 }
