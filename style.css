@@ -211,7 +211,7 @@ body {
   .menu__item {
     font: 500 14px/16px "Roboto", sans-serif;
   }
-    
+  
   .main__title {
     font: 700 50px/65px "PT Serif", sans-serif;
     padding: 12px 0 0 17px;
@@ -269,7 +269,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .wrapper {
     width: 80%;
   }
@@ -405,7 +404,6 @@ body {
 }
 
 @media (max-width: 375px) {
-
   .wrapper {
     width: 90%;
   }
