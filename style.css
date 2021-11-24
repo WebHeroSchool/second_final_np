@@ -185,7 +185,6 @@ body {
 }
 
 @media (max-width: 1336px) {
-
   .wrapper {
     width: 75%;
   }
@@ -203,7 +202,7 @@ body {
   .logo {
     padding: 35px 10px 30px 44px;
   }
-  
+
   .menu {
     padding: 14px 25px 0 0;
     margin: 3px 0 5px 0;
@@ -289,7 +288,7 @@ body {
     display: none;
   }
 
-  /* ------------------------------Burger Button ----------------------------*/
+  /* ------------------------------Burger Button --------------------------- */
 
   #menu__toggle {
     opacity: 0;
