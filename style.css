@@ -236,7 +236,7 @@ body {
     margin-right: 26px;
     font: 500 14px/16px "Roboto", sans-serif;
   }
-  
+
   .main__title {
     font: 700 50px/65px "PT Serif", sans-serif;
     padding: 13px 0 0 14px;
@@ -275,7 +275,7 @@ body {
 
 @media (max-width: 1210px) {
   .wrapper {
-    width: 85%;;
+    width: 85%;
   }
 }
 
