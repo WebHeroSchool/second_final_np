@@ -592,13 +592,13 @@ body {
 
   .main__button {
     font: 500 14px/24px Roboto, arial, helvetica, sans-serif;
-    padding: 11px 24px 13px 17px
+    padding: 11px 24px 13px 17px;
   }
 
   .main__description {
     width: 75%;
     margin: 0 auto 27px;
     margin-left: 45px;
-    padding: 24px 0 10px 0px;
+    padding: 24px 0 10px 0;
   }
 }
