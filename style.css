@@ -57,7 +57,7 @@ body {
   margin-right: 26px;
   color: #000;
   text-decoration: none;
-  transition: opacity .5, background 0.5s, animation 0.5s;
+  transition: opacity .5, background .5s, animation .5s;
 }
 
 .menu__item_active::after {
@@ -85,9 +85,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -145,7 +147,6 @@ body {
   background: #0056ec;
   text-decoration: none;
   border-radius: 5px;
-  transition: opacity .5s;
   padding: 14px 31px 18px 24px;
   margin-left: 5px;
   transition: opacity 1s ease-out;
