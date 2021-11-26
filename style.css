@@ -57,7 +57,7 @@ body {
   margin-right: 26px;
   color: #000;
   text-decoration: none;
-  transition: opacity .5;
+  transition: opacity .5, background 0.5s, animation 0.5s;
 }
 
 .menu__item_active::after {
@@ -75,7 +75,22 @@ body {
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: .7;
+  background: linear-gradient(transparent 15%, #ecf3ff 10%, #ecf3ff 90%, transparent 90%);
+  animation: background-full 6s ease-in-out infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes background-full {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .menu__item:hover::after {
@@ -133,10 +148,11 @@ body {
   transition: opacity .5s;
   padding: 14px 31px 18px 24px;
   margin-left: 5px;
+  transition: opacity 1s ease-out;
 }
 
 .main__button:hover {
-  opacity: .5;
+  opacity: .7;
 }
 
 .main-title-text_highlight {
@@ -334,22 +350,23 @@ body {
   }
 
   .main {
-    background: 90.1% 0% / 49.5% no-repeat url(img/mainpic.svg);
     padding: 0 60% 156px 0;
   }
 
   .main__title {
     margin-left: 33px;
+    padding: 17px 0 0 13px;
   }
 
   .main__description {
     font: 400 18px/21.09px "Roboto", sans-serif;
-    margin-left: 30px;
+    padding: 21px 0 20px 14px;
+    margin-bottom: 29px;
   }
 
   .main__button {
-    margin-left: 46px;
-    padding: 12px 31px 13px 12px;
+    margin-left: 49px;
+    padding: 11px 26px 14px 12px;
   }
 
   .main__dots {
@@ -573,6 +590,16 @@ body {
     top: 60%;
   }
 
+  .menu__box {
+    padding-top: 174px;
+    padding-left: 1px;
+    padding-right: 0;
+  }
+
+  .menu__item_box {
+    font-size: 30px;
+  }
+
   .menu__btn {
     top: 27px;
     right: 23px;
@@ -580,7 +607,7 @@ body {
 
   .main {
     margin-left: 0;
-    background-size: 85%;
+    background: 53% 0% / 84% no-repeat url(img/mainpic.svg);
     padding: 75% 0 0;
   }
 
@@ -592,7 +619,8 @@ body {
 
   .main__button {
     font: 500 14px/24px Roboto, arial, helvetica, sans-serif;
-    padding: 11px 24px 13px 17px;
+    padding: 12px 26px 13px 15px;
+    margin-left: 2px;
   }
 
   .main__description {
