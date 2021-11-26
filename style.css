@@ -409,7 +409,8 @@ body {
 @media (max-width: 862px) {
   .header {
     margin-bottom: 45px;
-  } 
+  }
+
   .main__title {
     font: 700 47px/65px "PT Serif", sans-serif;
   }
@@ -575,7 +576,7 @@ body {
   .header {
     margin-bottom: 17px;
   }
-    
+  
   .logo__text {
     display: none;
   }
