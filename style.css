@@ -171,6 +171,22 @@ body {
 }
 
 /* --------------------------------------------------Media Queries ---------------------------------------------- */
+@media (min-width: 1940px) {
+  .main {
+    padding: 0 63% 310px 0;
+  }
+
+  .main__title {
+    font: 700 105px/135px "PT Serif", sans-serif;
+    width: 110%;
+  }
+
+  .main__description {
+    font: 400 30px/38px "Roboto", sans-serif;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1882px) {
   .main__description {
     font: 400 21px/25px "Roboto", sans-serif;
@@ -434,6 +450,7 @@ body {
   .header {
     margin-left: 0;
     margin-bottom: 28px;
+    align-items: center;
   }
 
   .logo__text {
@@ -457,9 +474,6 @@ body {
   .menu__btn {
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 35px;
-    right: 35px;
     width: 26px;
     height: 26px;
     cursor: pointer;
@@ -602,8 +616,7 @@ body {
   }
 
   .menu__btn {
-    top: 27px;
-    right: 23px;
+    padding: 10px 4px 0 0;
   }
 
   .main {
