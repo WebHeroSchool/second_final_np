@@ -57,7 +57,7 @@ body {
   margin-right: 26px;
   color: #000;
   text-decoration: none;
-  transition: opacity .5, background .5s, animation .5s;
+  transition: opacity .5s, background .5s, animation .5s;
 }
 
 .menu__item_active::after {
@@ -177,7 +177,7 @@ body {
   }
 
   .main__title {
-    font: 700 105px/135px "PT Serif", sans-serif;
+    font: 700 80px/105px "PT Serif", sans-serif;
     width: 110%;
   }
 
