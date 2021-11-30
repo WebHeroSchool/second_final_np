@@ -75,23 +75,21 @@ body {
 }
 
 .menu__item:hover {
-  opacity: .7;
-  background: linear-gradient(transparent 15%, #ecf3ff 10%, #ecf3ff 90%, transparent 90%);
-  animation: background-full 6s ease-in-out infinite;
-  background-size: 400% 400%;
+  background: #ecf3ff;
+  animation: zoom-in 3s ease infinite;
 }
 
-@keyframes background-full {
+@keyframes zoom-in {
   0% {
-    background-position: 0% 50%;
+    transform: scale(1);
   }
 
   50% {
-    background-position: 100% 50%;
+    transform: scale(1.1);
   }
 
   100% {
-    background-position: 0% 50%;
+    transform: scale(1);
   }
 }
 
