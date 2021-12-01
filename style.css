@@ -1,10 +1,10 @@
+body {
+  margin: 0;
+}
+
 .wrapper {
   margin: auto;
   width: 80%;
-}
-
-body {
-  margin: 0;
 }
 
 .header {
